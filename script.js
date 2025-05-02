@@ -13,12 +13,12 @@ options.forEach((option)=>{
             computer.classList.remove("shakeComputer")
             player.classList.remove("shakePlayer")
 
-            player.src = "./images/" + option.innerHTML.toLocaleLowerCase() + "player.png"
+            player.src = "./images/" + option.innerHTML.toLocaleLowerCase() + "Player.png"
 
             const choice = ["ROCK","PAPER","SCISSORS"]
             let arrayNo = Math.floor(Math.random()*3)
             let computerChoice = choice[arrayNo]
-            computer.src ='./images/' + computerChoice.toLocaleLowerCase() +"computer.png"
+            computer.src ='./images/' + computerChoice.toLocaleLowerCase() +"Computer.png"
 
             let cPoints = parseInt(computerPoints.innerHTML)
             let pPoints = parseInt(playerPoints.innerHTML)
