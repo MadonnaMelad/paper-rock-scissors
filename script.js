@@ -18,7 +18,7 @@ options.forEach((option)=>{
             const choice = ["ROCK","PAPER","SCISSORS"]
             let arrayNo = Math.floor(Math.random()*3)
             let computerChoice = choice[arrayNo]
-            computer.src ='./images/' + computerChoice.toLocaleLowerCase()ل +"computer.png"
+            computer.src ='./images/' + computerChoice.toLocaleLowerCase() +"computer.png"
 
             let cPoints = parseInt(computerPoints.innerHTML)
             let pPoints = parseInt(playerPoints.innerHTML)
